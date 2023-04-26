@@ -238,7 +238,7 @@ def tcp():
     metrics = compute_Avg_and_Std(fileName)
     average = metrics[0]
     st_Deviation = metrics[1]   
-    print("Average: %s, Standard Deviation: %s" % (average, st_Deviation))
+    print("Average: %ss, Standard Deviation: %ss" % (average, st_Deviation))
 
     # Hint: The command below invokes a CLI which you can use to
     # debug.  It allows you to run arbitrary commands inside your
