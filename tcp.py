@@ -155,7 +155,7 @@ def start_ping(net):
     pings = h1.popen("ping -i 0.1 -c %s %s > ping.txt" % (args.time, h2.IP()), shell=True)
 
 
-# calcute standard devaitaion
+# calculate standard devaitaion
 def getStd(arr, mean):
     std = 0
     nsum = 0
